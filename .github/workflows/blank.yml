@@ -38,6 +38,6 @@ jobs:
   call_workflow:
      steps:
        - name: Test_workflow_call
-         uses: pavankumar843/new_rep2/.github/workflows/blank.yml
+         uses: pavankumar843/new_rep2/blank.yml
          
           
