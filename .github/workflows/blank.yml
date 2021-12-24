@@ -33,4 +33,11 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
+          echo test, and deploy your project. 
+          
+  call_workflow:
+     steps:
+       - name: Test_workflow_call
+         uses: pavankumar843/new_rep2/actions/workflows/CI
+         
+          
